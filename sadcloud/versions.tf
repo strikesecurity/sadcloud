@@ -5,3 +5,8 @@ terraform {
     aws = ">= 2.34.0"
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+  profile = "strikelabs"
+}
